@@ -17,7 +17,7 @@ body {
 
 #topo {
 	height: 150px;
-	width: 800px;
+	/*width: 800px;*/
 	background: url(../imagens/detalhe-topo.png) no-repeat right top;
 	padding-top: 25px;
 }
@@ -45,6 +45,7 @@ ul {
 
 #topo ul li {
 	float: left;
+	padding-left: 10px;
 }
 
 #topo ul a {
@@ -57,8 +58,9 @@ ul {
 	background: url(../imagens/divisor.png) no-repeat left center;
 }
 
-#topo ul .primeiro a {
+#topo ul #primeiro{
 	background: none;
+	padding-left: 0px;
 }
 
 #topo ul a:hover {
@@ -85,7 +87,6 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.economia #nav
 	width: 270px;
 	margin: 0 0 20px 190px;
 	float: left;
-	background: red;
 }
 
 #duas-colunas #primario {
@@ -101,7 +102,6 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.economia #nav
 	width: 270px;
 	float: left;
 	margin: 0 0 20px 15px;
-	background: blue;
 }
 
 .caixa{
@@ -125,7 +125,7 @@ h2{
 
 /* Formatar menus laterais*/
 #lateral ul a {
-	font-size: 0.7em;
+	font-size: 0.8em;
 	padding: 3px;
 	display: block;
 	line-height: 30px;
@@ -161,6 +161,29 @@ input.submit{
 	padding: 5px;
 }
 
+/* Formatando imagens*/
+
+img{
+	width: 98%;
+	border: 3px solid #dfdfdf;
+}
+
+/* Formatando cabeçalhos*/
+h3{
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+}
+
+.destaque h3{
+	background: #b10333;
+	color:#fff;
+}
+
+.entrevista h3{
+	background: #de003e;
+}
 
 /* Rodapé*/
 #conteiner-rodape{
