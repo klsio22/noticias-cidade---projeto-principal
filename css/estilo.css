@@ -163,7 +163,7 @@ input.submit{
 
 /* Formatando imagens*/
 
-img{
+ .destaque img, .entrevista img{
 	width: 98%;
 	border: 3px solid #dfdfdf;
 }
@@ -185,10 +185,43 @@ h3{
 	background: #de003e;
 }
 
-/* Rodapé*/
+/* Formatando lista de notícias */
+
+#lista-noticias li {
+	padding: 2px;
+	border-bottom: 1px solid#ccc;
+	height: 65px;
+}
+
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+
+}
+
+#lista-noticias li a {
+	text-decoration: none;
+}
+
+#lista-noticias li a h3{
+	font-size: 0.8em;
+	padding: 0;
+	color: #3e7ab9;
+}
+
+#lista-noticias li a p{
+	font-size: 0.7em;
+}
+
+#lista-noticias li:hover{
+	background:#eee;
+	cursor: pointer;
+}
+
+/* Rodapé */
 #conteiner-rodape{
 	clear: both;
-	background: #294c71;
+	background: #232c36;
 	padding: 20px;
 }
 
