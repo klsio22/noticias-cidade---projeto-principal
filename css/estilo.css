@@ -30,12 +30,13 @@ body {
 }
 
 /* Barra de Navegação */
-a:link , a:visited{
+
+a:link, a:visited {
 	color: #b10333;
 	padding: 2px;
 }
 
-a:hover{
+a:hover {
 	color: #e50040;
 }
 
@@ -66,7 +67,7 @@ ul {
 	background: url(../imagens/divisor.png) no-repeat left center;
 }
 
-#topo ul #primeiro{
+#topo ul #primeiro {
 	background: none;
 	padding-left: 0px;
 }
@@ -112,26 +113,27 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.economia #nav
 	margin: 0 0 20px 15px;
 }
 
-.caixa{
+.caixa {
 	margin: 10px 0;
 	padding: 5px;
 	background: #f3f3f3 url(../imagens/fundo-caixa.png);
 }
 
-h2{
+h2 {
 	font-size: 1em;
 	background: #294c71;
 	color: #fff;
 	padding: 5px;
 }
 
-.caixa-conteudo{
+.caixa-conteudo {
 	background: #fff;
 	padding: 5px;
 	margin-top: 5px;
 }
 
 /* Formatar menus laterais*/
+
 #lateral ul a {
 	font-size: 0.8em;
 	padding: 3px;
@@ -140,28 +142,29 @@ h2{
 	color: #000;
 	text-decoration: none;
 	border-bottom: 1px solid #f3f3f3;
-
 }
 
-#lateral ul a:hover{
+#lateral ul a:hover {
 	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left;
 	padding-left: 20px;
 	color: #a1a1a1;
 }
+
 /* Formatando formulários*/
-label{
+
+label {
 	display: block;
 	cursor: pointer;
 }
 
-input{
+input {
 	padding: 5px;
 	width: 125px;
 	font-size: 0.9em;
 	background-color: #fff;
 }
 
-input.submit{
+input.submit {
 	width: 95px;
 	color: #fff;
 	background-color: #b10333;
@@ -171,25 +174,26 @@ input.submit{
 
 /* Formatando imagens*/
 
- .destaque img, .entrevista img{
+.destaque img, .entrevista img {
 	width: 98%;
 	border: 3px solid #dfdfdf;
 }
 
 /* Formatando cabeçalhos*/
-h3{
+
+h3 {
 	text-transform: uppercase;
 	display: inline;
 	font-size: 0.8em;
 	padding: 3px;
 }
 
-.destaque h3{
+.destaque h3 {
 	background: #b10333;
-	color:#fff;
+	color: #fff;
 }
 
-.entrevista h3{
+.entrevista h3 {
 	background: #de003e;
 }
 
@@ -204,31 +208,31 @@ h3{
 #lista-noticias li a img {
 	float: left;
 	margin: 5px;
-
 }
 
 #lista-noticias li a {
 	text-decoration: none;
 }
 
-#lista-noticias li a h3{
+#lista-noticias li a h3 {
 	font-size: 0.8em;
 	padding: 0;
 	color: #3e7ab9;
 }
 
-#lista-noticias li a p{
+#lista-noticias li a p {
 	font-size: 0.7em;
 	color: #000;
 }
 
-#lista-noticias li:hover{
-	background:#eee;
+#lista-noticias li:hover {
+	background: #eee;
 	cursor: pointer;
 }
 
 /* Rodapé */
-#conteiner-rodape{
+
+#conteiner-rodape {
 	clear: both;
 	background: #232c36;
 	padding: 20px;
