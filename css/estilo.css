@@ -30,6 +30,14 @@ body {
 }
 
 /* Barra de Navegação */
+a:link , a:visited{
+	color: #b10333;
+	padding: 2px;
+}
+
+a:hover{
+	color: #e50040;
+}
 
 ul {
 	margin: 0;
@@ -93,7 +101,7 @@ body.home #navegacao a#home, body.brasil #navegacao a#brasil, body.economia #nav
 	width: 555px;
 }
 
-#uma-colunas #primario {
+#uma-coluna #primario {
 	width: 750px;
 	margin: 0 0 20px 0px;
 }
@@ -211,6 +219,7 @@ h3{
 
 #lista-noticias li a p{
 	font-size: 0.7em;
+	color: #000;
 }
 
 #lista-noticias li:hover{
